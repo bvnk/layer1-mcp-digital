@@ -1,0 +1,20 @@
+{
+  "name": "layer1-mcp-digital",
+  "version": "1.0.0",
+  "description": "MCP server for Layer1 Digital Asset API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0",
+    "@ltonetwork/http-message-signatures": "^0.1.12"
+  },
+  "keywords": ["mcp", "layer1", "digital-asset", "blockchain"],
+  "author": "MCP Layer1 Digital",
+  "license": "MIT"
+} 
